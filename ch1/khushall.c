@@ -54,17 +54,6 @@ int main(){
     scanf("%d", &height);
 
     printf("the area of cylinder is %f\n", 2*3.14*radius*radius + 2*3.14*radius*height );
-    
-
-
-    //code to calculate perimeter of a square 
-
-    int side;
-    printf("Enter the following values to calculate the perimeter of the square\n");
-    printf("Enter side\n");
-    scanf("%d", &side);
-
-    printf("the perimeter of the square is %d\n", 4*side);
-
+  
   return 0;
 }
